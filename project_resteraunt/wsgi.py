@@ -1,5 +1,5 @@
 """
-WSGI config for project_resteraunt project.
+WSGI config for resteraunt project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project_resteraunt.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'resteraunt.settings')
 
 application = get_wsgi_application()

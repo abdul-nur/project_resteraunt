@@ -1,1 +1,1 @@
-web: gunicorn project_resteraunt.wsgi --log-file -
+web: gunicorn resteraunt.wsgi --log-file -
