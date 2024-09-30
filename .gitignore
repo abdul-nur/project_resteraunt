@@ -40,8 +40,6 @@ env/
 db.sqlite3
 db.sqlite3-journal
 media/
-staticfiles/
-
 # Ignore migrations
 */migrations/*
 
@@ -49,9 +47,6 @@ staticfiles/
 gunicorn.log
 gunicorn.err
 
-# Django static files
-static/
-staticfiles/
 
 # Django secret keys
 secret_key.txt
