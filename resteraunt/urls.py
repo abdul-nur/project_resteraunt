@@ -21,9 +21,9 @@ from resteraunt import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('base.html', views.home),
-    path('main.html', views.main),
-    path('order.html', views.order),
+    path('restaurant/base.html', views.home),
+    path('restaurant/main.html', views.main),
+    path('restaurant/order.html', views.order),
     path('submit-order', views.submit_order, name='submit_order'),
-    path('confirmation.html', views.home),
+    path('restaurant/confirmation.html', views.home),
 ]
