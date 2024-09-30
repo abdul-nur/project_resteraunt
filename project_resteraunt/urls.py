@@ -20,6 +20,7 @@ from resteraunt import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.home),
     path('base.html', views.home),
     path('main.html', views.main),
     path('order.html', views.order),
